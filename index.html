@@ -35,6 +35,7 @@
     }
 
     h1.sitename,
+    .mobile-nav-toggle,
     .navmenu .dropdown ul a {
         color: #ffffff !important;
     }
@@ -65,27 +66,7 @@
                 <ul>
                     <li><a href="#welcome" class="active">Halaman Utama</a></li>
                     <li><a href="#event">Acara</a></li>
-                    <!-- <li><a href="#services">Services</a></li> -->
                     <li><a href="#documentation">Dokumentasi</a></li>
-                    <!-- <li><a href="#committee">Team</a></li> -->
-                    <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                        <li><a href="#">Dropdown 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                            <li><a href="#">Deep Dropdown 1</a></li>
-                            <li><a href="#">Deep Dropdown 2</a></li>
-                            <li><a href="#">Deep Dropdown 3</a></li>
-                            <li><a href="#">Deep Dropdown 4</a></li>
-                            <li><a href="#">Deep Dropdown 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Dropdown 2</a></li>
-                        <li><a href="#">Dropdown 3</a></li>
-                        <li><a href="#">Dropdown 4</a></li>
-                        </ul>
-                    </li> -->
-                    <!-- <li><a href="#contact">Contact</a></li> -->
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -102,7 +83,7 @@
     <main class="main">
         <!-- start hero section -->
         <section id="welcome" class="hero section dark-background">
-            <img src="assets/img/2e047aad-f8be-4f03-921f-9ffdf02a6c4c.jpg" alt="" data-aos="fade-in">
+            <img src="assets/img/352acde1-d83d-47fb-a6b4-3a81bc51ddcc.jpg" alt="" data-aos="fade-in">
 
             <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="row justify-content-center">
@@ -114,62 +95,15 @@
         </section>
         <!-- end hero section -->
 
-        <!-- start what we do section -->
-        <!-- <section id="what-we-do" class="what-we-do section">
-            <div class="container section-title" data-aos="fade-up">
-                <h2>What We Do</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div>
-            
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="why-box">
-                        <h3>Why Choose Our Products?</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                            Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-                        </p>
-                        <div class="text-center">
-                            <a href="#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-8 d-flex align-items-stretch">
-                        <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
-                            <div class="col-xl-4">
-                                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                                <i class="bi bi-clipboard-data"></i>
-                                <h4>Corporis voluptates officia eiusmod</h4>
-                                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
-                                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                                <i class="bi bi-gem"></i>
-                                <h4>Ullamco laboris ladore pan</h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
-                                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                                <i class="bi bi-inboxes"></i>
-                                <h4>Labore consequatur incidid dolore</h4>
-                                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- end what we do section -->
-
         <!-- start event section -->
         <section id="event" class="about section">
             <div class="container section-title" data-aos="fade-up">
                 <h2>Acara</h2>
+
+                <audio controls autoplay>
+                    <source src="assets/music/gloriatrio_gitasorgabergema.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
             </div>
 
             <div class="container">
@@ -507,5 +441,8 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script>
+        audioElement.play();
+    </script>
 </body>
 </html>
